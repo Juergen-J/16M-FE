@@ -4,7 +4,6 @@ body,h1,h2,h3,p{margin: 0px; padding: 0px;}
   width: 90%;
   height: auto;
   text-align: center;
-  border: 1px solid black;
   margin: 10px auto 5px auto;
 }
 
@@ -28,7 +27,7 @@ body,h1,h2,h3,p{margin: 0px; padding: 0px;}
    background-color: #E6E6E6;
    margin: 15px auto 0px auto;
    border: 1px solid #E6E6E6;
-   border-radius: 3px;
+   border-radius: 5px;
    line-height: 66px;
  }
  #three{
@@ -37,17 +36,40 @@ body,h1,h2,h3,p{margin: 0px; padding: 0px;}
    font-size: 18px;
    text-align:left;
    color: #8F8FA0;
-   background-color: #E6E6E6;
+   background-color: white;
    margin: 15px auto 0px auto;
-   border: 1px solid #E6E6E6;
-   border-radius: 3px;
-   line-height: 66px;
+
+
+
  }
  #three p{
    padding: 0px;
    margin: 0px;
-   line-height: 0px;
+   line-height: 66px;
+   float: left;
+   margin: 0px 0px 0px 10px;
+   font-weight: normal;
  }
+ #checkbox{
+   width: 20px;
+   height: 20px;
+   border: 2px solid blue;
+   border-radius: 3px;
+   margin: 20px 0px 0px 0px;
+   float: left;
+ }
+ #three a{
+   float: left;
+   text-align: right;
+   line-height: 66px;
+   margin: 0px 0px 0px 210px;
+   color: blue;
+   font-weight: normal;
+ }
+ #three a:link, nav a:visited{
+		color: blue;
+		text-decoration: none;
+  }
 
  .clearfix{
 	clear:both;
